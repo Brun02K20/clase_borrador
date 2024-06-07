@@ -10,6 +10,7 @@ import Menu from './components/Menu';
 import Error from './components/Error';
 import Components from './examples/Components';
 import ComponentsProps from './examples/ComponentsProps';
+import Effect from './examples/Effect';
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
           <Route
             path="/props"
             element={<ComponentsProps />}
+          />
+          <Route
+            path="/effect"
+            element={<Effect />}
           />
           <Route
             path="*"
