@@ -11,6 +11,7 @@ import Error from './components/Error';
 import Components from './examples/Components';
 import ComponentsProps from './examples/ComponentsProps';
 import Effect from './examples/Effect';
+import Effect_State from './examples/Effect_State';
 
 function App() {
   return (
@@ -41,6 +42,10 @@ function App() {
           <Route
             path="/effect"
             element={<Effect />}
+          />
+          <Route
+            path="/effect_state"
+            element={<Effect_State />}
           />
           <Route
             path="*"
